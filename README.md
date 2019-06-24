@@ -18,6 +18,6 @@ $ pip install pvfactors
 
 ```
 
-## Run the noetbooks:
+## Run the notebooks:
 
 Open Jupyter Lab (or notebook) and run them interactively.
