@@ -1,3 +1,6 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tcapelle/bifacial_modelling/master)
+
+
 # Bifacial Modelling Python Framework
 
 This repository is to exchange modelling techniques for bifacial forecasting within the WP4.
@@ -21,3 +24,4 @@ $ pip install pvfactors
 ## Run the notebooks:
 
 Open Jupyter Lab (or notebook) and run them interactively.
+
