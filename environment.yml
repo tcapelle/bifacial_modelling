@@ -1,9 +1,14 @@
 name: bifacial_modelling
 channels:
   - conda-forge
+  - pvlib
 dependencies:
   - numpy
   - pandas
-  - pvlib
-  - pvfactors
   - matplotlib
+  - pvlib
+  - pip
+  - jupyter-lab
+  - pip:
+    #not available on conda
+    - pvfactors

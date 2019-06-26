@@ -13,15 +13,12 @@ This repository is to exchange modelling techniques for bifacial forecasting wit
 
 In short, if you have anaconda, execute:
 ```
-$ conda create --name bifacial_modelling
+$ conda env create --file=envirnment.yml
 $ conda activate bifacial_modelling
-$ conda install -c pvlib pvlib
-$ conda install jupyterlab
-$ pip install pvfactors
 
 ```
 
 ## Run the notebooks:
 
 Open Jupyter Lab (or notebook) and run them interactively.
-
+You can also click the [binder](https://mybinder.org/v2/gh/tcapelle/bifacial_modelling/master) icon and run them on the web.
