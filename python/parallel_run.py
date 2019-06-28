@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # import function to run simulations in parallel
 import pvlib
-from pvfactors.geometry import OrderedPVArray
+# from pvfactors.geometry import OrderedPVArray
 from pvfactors.run import run_parallel_engine
 from pvfactors.engine import PVEngine
 from utils import *
@@ -16,7 +16,7 @@ LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
 
-def debug_pvarray(data, pvarray_parameters, idx=0):
+def _debug_pvarray(data, pvarray_parameters, idx=0):
     data_idx = data.iloc[idx]
     params = {'axis_azimuth': pvarray_parameters['axis_azimuth'],
              'gcr': pvarray_parameters['gcr'],
