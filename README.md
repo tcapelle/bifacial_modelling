@@ -15,7 +15,7 @@ In short, if you have anaconda, execute:
 ```
 $ conda env create --file=envirnment.yml
 $ conda activate bifacial_modelling
-
+$ jupyter lab
 ```
 
 ## Run the notebooks:
